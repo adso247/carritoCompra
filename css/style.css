@@ -1,0 +1,68 @@
+/* Estilos generales del cuerpo de la página */
+body {
+    font-family: Arial, Helvetica, sans-serif; /* Fuente utilizada para el texto */
+    margin: 0; /* Margen exterior del cuerpo de la página */
+    padding: 0; /* Espacio interior del cuerpo de la página */
+  }
+  
+  /* Estilos para el contenedor de la tienda */
+  #store-container {
+    display: flex; /* Se utiliza flexbox para organizar los elementos en fila */
+    gap: 10px; /* Espacio entre los elementos */
+  }
+  
+  /* Estilos para cada ítem de la tienda */
+  #store-container .item {
+    border: solid 1px #ccc; /* Borde sólido con color gris claro */
+    padding: 20px; /* Espaciado interno dentro del ítem */
+  }
+  
+  /* Estilos para el contenedor del carrito de compras */
+  #shopping-cart-container {
+    position: absolute; /* Posición absoluta en relación con su contenedor padre */
+    right: 0; /* Alineación a la derecha */
+    width: 300px; /* Ancho fijo */
+    border: solid 1px #ccc; /* Borde sólido con color gris claro */
+    padding: 10px; /* Espaciado interno dentro del contenedor */
+  }
+  
+  /* Clase para mostrar elementos */
+  .show {
+    display: block; /* Hace que el elemento sea visible */
+  }
+  
+  /* Clase para ocultar elementos */
+  .hide {
+    display: none; /* Hace que el elemento sea invisible */
+  }
+  
+  /* Estilos para el título de cada ítem */
+  .item .title {
+    font-weight: bold; /* Texto en negrita */
+  }
+  
+  /* Estilos para el precio de cada ítem */
+  .item .price {
+    color: green; /* Color del texto en verde */
+    font-weight: bold; /* Texto en negrita */
+  }
+  
+  /* Estilos para los contenedores de texto */
+  .item div {
+    padding: 5px 0; /* Espaciado interno vertical */
+  }
+  
+  /* Estilos para el total en el carrito de compras */
+  .total {
+    padding: 10px 0; /* Espaciado interno vertical */
+    font-weight: bold; /* Texto en negrita */
+    font-size: 20px; /* Tamaño de fuente más grande */
+  }
+  
+  /* Estilos para los botones */
+  button {
+    border: none; /* Sin borde */
+    background-color: rgb(241, 217, 28); /* Color de fondo amarillo */
+    padding: 5px 10px; /* Espaciado interno */
+    border-radius: 5px; /* Bordes redondeados */
+  }
